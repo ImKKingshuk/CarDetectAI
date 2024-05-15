@@ -9,7 +9,7 @@ function Navbar({}: NavbarProps) {
     <div>
       <div className="w-full fixed  z-40 top-2 flex justify-between  md:rounded-full rounded-b-3xl  px-4 md:px-12 py-auto">
         <button className="p-3 rounded-full backdrop-blur-xl tracking-wide select-no shine  overflow-hidden bg-gradient-to-b from-gray-400 to-white bg-clip-text font-bold text-2xl md:text-[2rem]  ">
-          HyperDetect
+          CarDetect
           <span className="pl-1 tracking-[.10em] bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text font-bold text-transparent">
             AI
           </span>
