@@ -24,7 +24,7 @@ function Footer({}: FooterProps) {
         </p>
 
         <p className="rounded-full backdrop-blur-xl px-3 py-1">
-          &copy; {currentYear}, HyperDetectAI | All Rights Reserved.
+          &copy; {currentYear}, CarDetectAI | All Rights Reserved.
         </p>
       </div>
     </div>
