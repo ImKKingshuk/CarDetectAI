@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "CarDetectAI",
   description:
     "Experience next-generation road safety with CarDetectAI. Our Object Detection system, powered by AI, detects cars, people, and objects in real-time, providing alerts for speeding, collision risks, and potential accidents. Stay informed and secure on the road with CarDetectAI.",
-  metadataBase: new URL("https://CarDetectAI.vercel.app"),
+  metadataBase: new URL("https://cardetectai.vercel.app"),
   alternates: {
     canonical: "/",
     languages: {
@@ -30,16 +30,16 @@ export const metadata: Metadata = {
     title: "CarDetectAI",
     description:
       "Experience next-generation road safety with CarDetectAI. Our Object Detection system, powered by AI, detects cars, people, and objects in real-time, providing alerts for speeding, collision risks, and potential accidents. Stay informed and secure on the road with CarDetectAI.",
-    url: "https://CarDetectAI.vercel.app",
+    url: "https://cardetectai.vercel.app",
     siteName: "CarDetectAI",
     images: [
       {
-        url: "https://CarDetectAI.vercel.app/CarDetectAI.png",
+        url: "https://cardetectai.vercel.app/CarDetectAI.png",
         width: 800,
         height: 600,
       },
       {
-        url: "https://CarDetectAI.vercel.app/CarDetectAI.png",
+        url: "https://cardetectai.vercel.app/CarDetectAI.png",
         width: 1800,
         height: 1600,
         alt: "My custom alt",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     title: "CarDetectAI",
     description:
       "Experience next-generation road safety with CarDetectAI. Our Object Detection system, powered by AI, detects cars, people, and objects in real-time, providing alerts for speeding, collision risks, and potential accidents. Stay informed and secure on the road with CarDetectAI.",
-    images: ["https://CarDetectAI.vercel.app/CarDetectAI.png"],
+    images: ["https://cardetectai.vercel.app/CarDetectAI.png"],
   },
 };
 
