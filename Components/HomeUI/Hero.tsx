@@ -11,7 +11,7 @@ function Hero({}: HeroProps) {
       <div className="mx-auto">
         <StarGrid />
         <h1 className="text-center tracking-wide select-no shine  overflow-hidden bg-gradient-to-b from-gray-400 to-white bg-clip-text font-bold text-[2.5rem] md:text-[4.5rem] ">
-          HyperDetect
+          CarDetect
           <span className="pl-1 tracking-[.10em] bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text font-bold text-transparent">
             AI
           </span>
