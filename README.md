@@ -1,12 +1,12 @@
-<h1 align="center">HyperDetectAI</h1>
+<h1 align="center">CarDetectAI</h1>
 <p align="center">Version- v1.0.1.DEV <br> <br>
-<a href="https://hyperdetectai.vercel.app">Live Demo</a></p>
+<a href="https://cardetectai.vercel.app">Live Demo</a></p>
 
-<p align="center">Experience next-generation road safety with HyperDetectAI. Our Object Detection system, powered by AI, detects cars, people, and objects in real-time, providing alerts for speeding, collision risks, and potential accidents. Stay informed and secure on the road with HyperDetectAI.</p>
+<p align="center">Experience next-generation road safety with CarDetectAI. Our Object Detection system, powered by AI, detects cars, people, and objects in real-time, providing alerts for speeding, collision risks, and potential accidents. Stay informed and secure on the road with CarDetectAI.</p>
 
 <br><br>
 
-<h3 align="center">Follow these steps to run HyperDetectAI</h3>
+<h3 align="center">Follow these steps to run CarDetectAI</h3>
 
 #### Installation
 
@@ -45,7 +45,7 @@ pnpm dev
 ```
 
 <h1 align="center">Contributing</h1>
-<p align="center">We welcome contributions from the community to make HyperDetectAI better for everyone. Whether you're a developer, designer, or enthusiast, there are ways you can contribute.</p>
+<p align="center">We welcome contributions from the community to make CarDetectAI better for everyone. Whether you're a developer, designer, or enthusiast, there are ways you can contribute.</p>
 
 ### Getting Started
 
