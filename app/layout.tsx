@@ -8,10 +8,10 @@ import Footer from "@/Components/DefaultUI/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "HyperDetectAI",
+  title: "CarDetectAI",
   description:
-    "Experience next-generation road safety with HyperDetectAI. Our Object Detection system, powered by AI, detects cars, people, and objects in real-time, providing alerts for speeding, collision risks, and potential accidents. Stay informed and secure on the road with HyperDetectAI.",
-  metadataBase: new URL("https://hyperdetectai.vercel.app"),
+    "Experience next-generation road safety with CarDetectAI. Our Object Detection system, powered by AI, detects cars, people, and objects in real-time, providing alerts for speeding, collision risks, and potential accidents. Stay informed and secure on the road with CarDetectAI.",
+  metadataBase: new URL("https://CarDetectAI.vercel.app"),
   alternates: {
     canonical: "/",
     languages: {
@@ -21,25 +21,25 @@ export const metadata: Metadata = {
     },
   },
 
-  applicationName: "HyperDetectAI",
+  applicationName: "CarDetectAI",
   referrer: "origin-when-cross-origin",
-  keywords: ["HyperDetectAI", "HyperDetect"],
+  keywords: ["CarDetectAI", "CarDetect"],
   authors: [{ name: "@ImKKingshuk", url: "https://github.com/ImKKingshuk" }],
 
   openGraph: {
-    title: "HyperDetectAI",
+    title: "CarDetectAI",
     description:
-      "Experience next-generation road safety with HyperDetectAI. Our Object Detection system, powered by AI, detects cars, people, and objects in real-time, providing alerts for speeding, collision risks, and potential accidents. Stay informed and secure on the road with HyperDetectAI.",
-    url: "https://hyperdetectai.vercel.app",
-    siteName: "HyperDetectAI",
+      "Experience next-generation road safety with CarDetectAI. Our Object Detection system, powered by AI, detects cars, people, and objects in real-time, providing alerts for speeding, collision risks, and potential accidents. Stay informed and secure on the road with CarDetectAI.",
+    url: "https://CarDetectAI.vercel.app",
+    siteName: "CarDetectAI",
     images: [
       {
-        url: "https://hyperdetectai.vercel.app/HyperDetectAI.png",
+        url: "https://CarDetectAI.vercel.app/CarDetectAI.png",
         width: 800,
         height: 600,
       },
       {
-        url: "https://hyperdetectai.vercel.app/HyperDetectAI.png",
+        url: "https://CarDetectAI.vercel.app/CarDetectAI.png",
         width: 1800,
         height: 1600,
         alt: "My custom alt",
@@ -51,10 +51,10 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "HyperDetectAI",
+    title: "CarDetectAI",
     description:
-      "Experience next-generation road safety with HyperDetectAI. Our Object Detection system, powered by AI, detects cars, people, and objects in real-time, providing alerts for speeding, collision risks, and potential accidents. Stay informed and secure on the road with HyperDetectAI.",
-    images: ["https://hyperdetectai.vercel.app/HyperDetectAI.png"],
+      "Experience next-generation road safety with CarDetectAI. Our Object Detection system, powered by AI, detects cars, people, and objects in real-time, providing alerts for speeding, collision risks, and potential accidents. Stay informed and secure on the road with CarDetectAI.",
+    images: ["https://CarDetectAI.vercel.app/CarDetectAI.png"],
   },
 };
 
