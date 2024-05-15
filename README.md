@@ -1,5 +1,5 @@
 <h1 align="center">CarDetectAI</h1>
-<p align="center">Version- v1.0.1.DEV <br> <br>
+<p align="center">Version- v1.0.0 <br> <br>
 <a href="https://cardetectai.vercel.app">Live Demo</a></p>
 
 <p align="center">Experience next-generation road safety with CarDetectAI. Our Object Detection system, powered by AI, detects cars, people, and objects in real-time, providing alerts for speeding, collision risks, and potential accidents. Stay informed and secure on the road with CarDetectAI.</p>
