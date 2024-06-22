@@ -1,4 +1,3 @@
-import { throttle } from "lodash";
 
 interface Prediction {
   bbox: number[];
