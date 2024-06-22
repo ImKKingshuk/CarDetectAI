@@ -55,21 +55,3 @@ export const PredictionModules = (
     hyperRender.fillStyle = "#000000";
     hyperRender.fillText(prediction.class, x, y);
 
-    if (isPerson) {
-      playAudioPerson();
-    }
-    if (isPhone) {
-      playAudioPhone();
-    }
-  });
-};
-
-const playAudioPerson = throttle(() => {
-  const audio = new Audio("/Voice_Person_Detected.wav");
-  audio.play();
-}, 8000);
-
-const playAudioPhone = throttle(() => {
-  const audio = new Audio("/Voice_Phone_Detected.wav");
-  audio.play();
-}, 8000);
