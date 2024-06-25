@@ -1,9 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import Webcam from "react-webcam";
-import { load as cocoSSDLoad } from "@tensorflow-models/coco-ssd";
-import * as tf from "@tensorflow/tfjs";
+
 import { PredictionModules } from "./UtilsAI/PredictionModules";
 
 interface ObjectDetectionWindowProps {}
@@ -63,9 +61,6 @@ function ObjectDetectionWindow({}: ObjectDetectionWindowProps) {
         try {
           await tf.setBackend("webgl");
           await tf.ready();
-          const cocoSSD = await import("@tensorflow-models/coco-ssd");
-          const net = await cocoSSD.load();
-          await runCoco();
         } catch (error) {
           console.error("Error loading Coco-SSD model:", error);
         }
