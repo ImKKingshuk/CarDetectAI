@@ -18,7 +18,7 @@ function ObjectDetectionWindow({}: ObjectDetectionWindowProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const detectIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
-  const runCoco = async () => {
+  const run = async () => {
     setIsLoading(true);
     setIsLoading(false);
     detectIntervalRef.current = setInterval(() => {
