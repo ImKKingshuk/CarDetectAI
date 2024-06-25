@@ -20,7 +20,6 @@ function ObjectDetectionWindow({}: ObjectDetectionWindowProps) {
 
   const runCoco = async () => {
     setIsLoading(true);
-    const net = await cocoSSDLoad();
     setIsLoading(false);
     detectIntervalRef.current = setInterval(() => {
       runObjectDetection(net);
